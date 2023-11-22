@@ -1,34 +1,13 @@
-TODO:arreglar los a y cambiarlos por los li TODO:arreglar lo del padding de los a TODO:agregar iconos de las categorias html {
-  box-sizing: border-box;
-  margin: auto 0;
 
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-
-}
 
 /* este es mi contenedor grid que es como a nivel del body, contendra todos los componentes del body */
 .grid-container {
-  width: 100vw;
   /* display: grid; COMENTADO PARA IMPORTAR COMPONENTE CARRUSEL EN HOME */
-  grid-template-rows: 1fr 2fr 1fr 1fr 1fr 1fr 1fr;
   /* hice 5 filas porque arriba estara el header, al medio el main con 3 filas y bajo el footer con 1*/
-  grid-template-areas:
-    /* les asigne nombres literales a cada area definida arriba */
-    'header'
-    'encabezado' TODO esto es una prueba
-    'carrusel'
-    'section1'
-    'iconos'
-    'section2'
-    'section3'
-    'blogs'
-    'footer';
-  padding-bottom: 20px;
+  background-color:#180B26;
+  min-width: 300px;
+  box-sizing: border-box;
+
 }
 
 /* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
@@ -49,14 +28,14 @@ TODO:arreglar los a y cambiarlos por los li TODO:arreglar lo del padding de los 
   position: relative;
   flex-shrink: 0;
   display: flex;
-  justify-content: end;
-  gap: 150px;
+  justify-content: space-between;
   color: #FFF;
   font-family: Poppins;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  padding-left: 20px;
 }
 
 
@@ -94,31 +73,19 @@ TODO:arreglar los a y cambiarlos por los li TODO:arreglar lo del padding de los 
 
 }
 
-
-
-
-.categories-flex {
-  display: flex;
-  justify-content: space-around;
-  margin: 0;
-
-
-}
-
 .categories-flex {
   list-style: none;
-
   color: #D9B9FF;
-  background-color: black;
-  height: 5rem;
-  align-items: center;
+  display: flex;
+  width: 10px;
+  height: 30px;
+  margin: 0;
 }
 
 li {
   height: 100%;
   align-items: center;
   margin: 0;
-  padding-top: 13px;
   width: 320px;
    color: #D9B9FF;
 
@@ -134,21 +101,17 @@ li {
   font-family: 'Poppins', sans-serif;
   border: none;
   background-color: rgba(255, 228, 196, 0);
-  width: 320px;
   height: 48px;
   padding-bottom: 20px;
 }
 
 ul>a {
   color: #D9B9FF;
-  width: 320px;
   height: 100%;
-  padding: 16px 10px;
   text-align: center;
   align-items: center;
   margin-left: 5rem;
   margin-right: 5rem;
-  height: 5rem;
 }
 
 
@@ -164,54 +127,15 @@ align-self: stretch; */
 
 
 .logo-header {
-  background-color: rgb(86, 212, 212);
-  padding: 0.5rem;
-  border-radius: 1rem;
-}
-
-.filter {
-
-  border-radius: 100px;
-  height: 48px;
-  width: 448px;
-  border: none;
-  text-align: start;
-  padding-left: 70px;
-  padding-bottom: 15px;
-  padding-top: 17px;
-  color: #000;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  align-self: center;
-  outline: none;
-  background-color: #FFF;
-
-
-
-
-}
-
-.filter-button {
-  position: absolute;
-  top: 35%;
-  right: 63%;
-  height: 45px;
-  width: 45px;
-  border-radius: 30px;
-  background-color: rgb(0, 0, 0, 0);
-  border: none;
-  outline: none
+  color: rgb(86, 212, 212);
+  background: #180B26;
 }
 
 
 .icons {
   display: flex;
-  Padding: 0px 48px;
-  align-items: flex-start;
-  gap: 32px;
+  gap: 40px;
+  cursor: pointer;
 }
 
 
@@ -230,7 +154,6 @@ align-self: stretch; */
   border: none;
   margin: 0;
   padding: 0;
-  width: 30px;
   outline: none;
   color: #A8E9FE;
 

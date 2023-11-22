@@ -1,4 +1,4 @@
-import { CssBaseline, ThemeProvider, createTheme } from "@mui/material"
+import { ThemeProvider, CssBaseline,  createTheme } from "@mui/material"
 
 type ThemeProp = {
     children:JSX.Element,

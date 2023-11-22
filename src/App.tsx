@@ -20,11 +20,6 @@ import { NotificationProvider } from './context/notification.context'
 import { CentrodeAyuda } from './pages/CentrodeAyuda'
 import { Agenda } from './components/Agenda/Agenda'
 
-
-
-
-
-
 function App() {
 
   return (

@@ -1,5 +1,4 @@
 html {
-    box-sizing: border-box;
     margin: auto 0;
 
 
@@ -14,8 +13,7 @@ html {
 
 
 .containerAgregarCarro {
-    height: 450px;
-    width: 450px;
+    max-width: 100%;
     border: 1px solid black;
     display: flex;
     flex-direction: column;
