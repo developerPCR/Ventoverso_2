@@ -1,0 +1,54 @@
+{
+    "marcas":[
+    {
+      "id": 1,
+      "marca": "Hohner",
+      "detalle": "Fabricante de instrumentos de viento Hohner."
+    },
+    {
+      "id": 2,
+      "marca": "Moeck",
+      "detalle": "Fabricante de instrumentos de viento Moeck."
+    },
+    {
+      "id": 3,
+      "marca": "Yamaha",
+      "detalle": "Fabricante de instrumentos de viento Yamaha."
+    },
+    {
+      "id": 4,
+      "marca": "Selmer",
+      "detalle": "Fabricante de instrumentos de viento Selmer."
+    },
+    {
+      "id": 5,
+      "marca": "Legere",
+      "detalle": "Fabricante de instrumentos de viento Legere."
+    },
+    {
+      "id": 6,
+      "marca": "Thomann",
+      "detalle": "Fabricante de instrumentos de viento Thomann."
+    },
+    {
+      "id": 7,
+      "marca": "F.A. Uebel",
+      "detalle": "Fabricante de instrumentos de viento Uebel."
+    },
+    {
+      "id": 8,
+      "marca": "Schreiber",
+      "detalle": "Fabricante de instrumentos de viento Schreiber."
+    },
+    {
+      "id": 9,
+      "marca": "Oscar Adler y CO",
+      "detalle": "Fabricante de instrumentos de viento Adler."
+    },
+    {
+      "id": 10,
+      "marca": "Schreiber",
+      "detalle": "Fabricante de instrumentos de viento Schreiber."
+    }
+  ]
+  }

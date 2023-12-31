@@ -1,0 +1,37 @@
+.marcas-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+
+}
+
+.marcas-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.marca-item {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.marca-item:hover {
+  background-color: #f5f5f5;
+}
+
+.marca-item h2 {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+.marca-item p {
+  font-size: 1em;
+  color: #444;
+}

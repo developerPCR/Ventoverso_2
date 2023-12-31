@@ -1,0 +1,75 @@
+{"categorias":[ 
+  {
+    "id": 1,
+    "nombre": "Viento",
+    "descripcion": "Instrumentos de viento.",
+    "subcategorias": [
+      {
+        "id": 6,
+        "nombre": "Accesorios Clarinete",
+        "descripcion": "Campanas y barriletes.",
+        "id_categoria": 1,
+        "imagen": "https://drive.google.com/uc?export=download&id=1TwrPeTEf5OZVc1yJrquSMq_TNsCVsaer"
+      },
+      {
+        "id": 5,
+        "nombre": "Cañas Clarinete",
+        "descripcion": "Cañas Clarinete",
+        "id_categoria": 1,
+        "imagen": "https://drive.google.com/uc?export=download&id=1TwrPeTEf5OZVc1yJrquSMq_TNsCVsaer"
+      },
+      {
+        "id": 4,
+        "nombre": "Campanas y barriles",
+        "descripcion": "Campanas y barriles",
+        "id_categoria": 1,
+        "imagen": "https://drive.google.com/uc?export=download&id=1TwrPeTEf5OZVc1yJrquSMq_TNsCVsaer"
+      },
+      {
+        "id": 3,
+        "nombre": "Clarinete Mib",
+        "descripcion": "Sistema Aleman.",
+        "id_categoria": 1,
+        "imagen": "https://drive.google.com/uc?export=download&id=1TwrPeTEf5OZVc1yJrquSMq_TNsCVsaer"
+      },
+      {
+        "id": 2,
+        "nombre": "Clarinete La",
+        "descripcion": "Sistema Aleman.",
+        "id_categoria": 1,
+        "imagen": "https://drive.google.com/uc?export=download&id=1TwrPeTEf5OZVc1yJrquSMq_TNsCVsaer"
+      },
+      {
+        "id": 1,
+        "nombre": "Clarinete Sib",
+        "descripcion": "Sistema Aleman.",
+        "id_categoria": 1,
+        "imagen": "https://drive.google.com/uc?export=download&id=1TwrPeTEf5OZVc1yJrquSMq_TNsCVsaer"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "nombre": "Guitarras y Bajos",
+    "descripcion": "Instrumentos de cuerda.",
+    "subcategorias": []
+  },
+  {
+    "id": 3,
+    "nombre": "Baterias y Percusion",
+    "descripcion": "Instrumentos de percusion.",
+    "subcategorias": []
+  },
+  {
+    "id": 4,
+    "nombre": "Platillos",
+    "descripcion": "Instrumentos de percusion.",
+    "subcategorias": []
+  },
+  {
+    "id": 5,
+    "nombre": "ACCESORIOS",
+    "descripcion": "Accesorios para instrumentos de viento.",
+    "subcategorias": []
+  }
+]}
