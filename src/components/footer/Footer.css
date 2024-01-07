@@ -1,113 +1,9 @@
-/* .grid-footer {
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    background-color: rgb(211, 210, 210);
-    grid-area: footer;
-    margin-top: 2rem;
-  }
-  .footer1 { 
-      
-      padding: 20 px;
-      font-size: 13px;
-      text-align: center;
-  
-  }
-  .footer2 {
-    
-      padding: 20 px;
-      font-size: 13px;
-      text-align: center;
-  
-    
-  }
-  .footer3 {
-    
-      padding: 20 px;
-      font-size: 13px;
-      text-align: center;
-  
-  }
-  
-  .footer4 {
-    
-      padding: 20 px;
-      font-size: 13px;
-      text-align: center;
-  
-  } */
-
-/* .grid-footer {
-    grid-area: footer;
-    display: flex;
-    background-color: rgb(211, 210, 210);
-    margin-top: 2rem;
-    
-}
- */
-
-
-
-
-
 .footer {
     background-color:#180B26;
-    margin-top: 70px;
+    min-width: 100dvh;
     padding-bottom: 2rem;
-    height: 330px;
-    display: flex;
-    flex-direction: column;
-    width: 100vw;
-    line-height: 30px;
-}
-
-.contenidoFooter {
-
-    display: flex;
-    gap: 50px;
-    justify-content: space-around;
-    padding: 20px 40px;
-    color:#A8E9FE
-}
-
-
-
-
-.footer1 {
-
-    padding: 20 px;
+    color: rgb(86, 212, 212);
     font-size: 13px;
-    display: flex;
-    flex-direction: column;
-
-
-}
-
-.footer2 {
-
-    padding: 20 px;
-    font-size: 13px;
-    display: flex;
-    flex-direction: column;
-    
-
-
-}
-
-.footer3 {
-
-    padding: 20 px;
-    font-size: 13px;
-
-
-
-}
-
-.footer4 {
-
-    padding: 20 px;
-    font-size: 13px;
-    
-
 
 }
 
@@ -115,55 +11,42 @@
 .instagram,
 .tik-tok {
     height: 2rem;
-    width: 2rem;
     margin-right: 1rem;
-    
+    width: 2rem;
+    background-color: #180B26;
+    border-radius: 50%;
+}
 
+.footer1, .footer2, .footer3, .footer4{
+    width: 170px;
+}
+
+.footer2  div{
+    padding-bottom: 5px;
+}
+
+
+.footer3  div{
+    padding-bottom: 5px;
 }
 
 
 
 .logo {
-    height: 3rem;
-    width: 10rem;
+    height: 2rem;
     margin-top: 1rem;
-    background-color: rgb(74, 192, 192);
+    color: rgb(74, 192, 192); 
     align-items: center;
-    padding-top: 0.8rem;
-    text-align: center;
-    margin-bottom: 1rem;
+    font-weight: 600;
+    font-size: 1.5em;
 }
 
 /* .direccion {
     margin-right: 80px;
 } */
 
-.barraFooter {
-    height: 80px;
-    background-color: #A8E9FE;
-    display: flex;
-    justify-content: end;
-    padding-top: 1rem;
-    padding-right: 90px;
-}
 
-.suscribeteInput {
-    width: 40vw;
-    height: 50px;
-    font-size: inherit;
-    padding-left: 20px;
-    border: none;
-    letter-spacing: 1px;
-}
 
-.suscribeteBoton {
-    height: 50px;
-    border: none;
-    background-color: #bdbdbd;
-    letter-spacing: 1px;
-    color: rgb(46, 46, 46);
-
-}
 
 .linkSiguenos, .linkServicioCliente, .linkTienda{
     color: #D9B9FF ;
